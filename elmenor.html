@@ -2,12 +2,14 @@
 <head></head>
 <body>
 <script type="text/javascript">
-	var numero=parseInt(prompt());
-	for (i=1;i<5;i++){
+	var numeroPequeño=parseInt(prompt());
+	var numeroGrande=numeroPequeño;
+	for (i=1;i<10;i++){
 	var meter=parseInt(prompt());
-	if(meter<numero){numero=meter;}
+	if(meter<numeroPequeño){numeroPequeño=meter;}
 	}
-	document.write(numero)
+	if(meter>numeroGrande){numeroGrande=meter;}
+	document.write(numero);
 </script>
 </body>
 </html>
